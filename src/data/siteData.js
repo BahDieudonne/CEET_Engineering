@@ -34,6 +34,7 @@ export const nav = [
   { label: 'Services', href: '#services' },
   { label: 'Gallery', href: '#gallery' },
   { label: 'About', href: '#about' },
+  { label: 'Reviews', href: '#reviews' },
   { label: 'Internship', href: '#internship' },
   { label: 'Contact', href: '#contact' },
 ]
@@ -188,7 +189,7 @@ export const about = {
 }
 
 export const stats = [
-  { value: '2026', label: 'Founded' },
+  { value: '2022', label: 'Founded' },
   { value: '100%', label: 'Safety-first crews' },
   { value: 'Bamenda', label: 'Home base, North West CM' },
   { value: '24/7', label: 'Consultation requests' },

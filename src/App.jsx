@@ -4,6 +4,7 @@ import Services from './components/Services'
 import WhyChooseUs from './components/WhyChooseUs'
 import Gallery from './components/Gallery'
 import About from './components/About'
+import Reviews from './components/Reviews'
 import Internship from './components/Internship'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
@@ -19,6 +20,7 @@ export default function App() {
         <WhyChooseUs />
         <Gallery />
         <About />
+        <Reviews />
         <Internship />
         <Contact />
       </main>
