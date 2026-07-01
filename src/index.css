@@ -1,0 +1,66 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --current: #FFD34D;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-paper text-ink font-body antialiased;
+}
+
+h1, h2, h3, h4 {
+  @apply font-display;
+}
+
+/* Visible keyboard focus everywhere */
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+textarea:focus-visible {
+  outline: 2px solid var(--current);
+  outline-offset: 3px;
+}
+
+/* Signature element: the "live current" — a dashed conductor line that
+   runs down the page connecting section nodes, animated like current flow. */
+.current-line {
+  stroke: var(--current);
+  stroke-width: 2;
+  stroke-dasharray: 6 10;
+  fill: none;
+  animation: current-flow 1.6s linear infinite;
+}
+
+.current-node {
+  filter: drop-shadow(0 0 6px rgba(255, 211, 77, 0.7));
+}
+
+@keyframes current-flow {
+  to {
+    stroke-dashoffset: -32;
+  }
+}
+
+.eyebrow {
+  @apply font-mono text-xs uppercase tracking-[0.25em] text-gold-500;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  .current-line {
+    animation: none;
+  }
+  * {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+  }
+}
