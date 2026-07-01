@@ -50,6 +50,11 @@ export default function Contact() {
               <a href={company.phoneHref} className="block text-xl font-display font-semibold text-indigo-950">
                 {company.phone}
               </a>
+              {company.additionalPhones.map((p) => (
+                <a key={p.href} href={p.href} className="block text-indigo-950/80">
+                  {p.number}
+                </a>
+              ))}
               <a href={company.emailHref} className="block text-indigo-950/70 mt-1">
                 {company.email}
               </a>

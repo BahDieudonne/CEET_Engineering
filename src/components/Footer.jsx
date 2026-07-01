@@ -28,6 +28,9 @@ export default function Footer() {
           <p className="eyebrow mb-4">Contact</p>
           <ul className="space-y-2 text-sm">
             <li><a href={company.phoneHref} className="hover:text-gold-400">{company.phone}</a></li>
+            {company.additionalPhones.map((p) => (
+              <li key={p.href}><a href={p.href} className="hover:text-gold-400">{p.number}</a></li>
+            ))}
             <li><a href={company.emailHref} className="hover:text-gold-400">{company.email}</a></li>
             <li>{company.location}</li>
             <li>
