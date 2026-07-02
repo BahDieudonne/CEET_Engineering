@@ -1,12 +1,16 @@
 import { company, footerLinks } from '../data/siteData'
 import stamp from '../assets/stamp.jpg'
+import logo from '../assets/logo.png'
 
 export default function Footer() {
   return (
     <footer className="bg-indigo-950 text-white/70 pt-16 pb-8">
       <div className="mx-auto max-w-7xl px-5 md:px-8 grid md:grid-cols-[1.2fr_1fr_1fr_auto] gap-10">
         <div>
-          <p className="font-display font-semibold text-white text-lg">{company.name}</p>
+          <div className="flex items-center gap-3">
+            <img src={logo} alt="CEET logo" className="h-10 w-10 object-contain" />
+            <p className="font-display font-semibold text-white text-lg">{company.name}</p>
+          </div>
           <p className="mt-3 text-sm max-w-xs">
             All electrical and solar deals: installations, audits, maintenance and consultation
             across Bamenda and the North West Region.
