@@ -1,5 +1,4 @@
 import { company, footerLinks } from '../data/siteData'
-import stamp from '../assets/stamp.jpg'
 import logo from '../assets/logo.png'
 
 export default function Footer() {
@@ -55,8 +54,8 @@ export default function Footer() {
 
         <div className="flex md:justify-end items-start">
           <img
-            src={stamp}
-            alt="CEET official seal, 2026"
+            src={logo}
+            alt="CEET official seal"
             className="h-20 w-20 object-contain opacity-90"
           />
         </div>
