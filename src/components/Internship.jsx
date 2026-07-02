@@ -11,11 +11,11 @@ export default function Internship() {
 
           <div className="mt-8 space-y-3 text-sm">
             <p>
-              <span className="text-gold-400 font-semibold">Location — </span>
+              <span className="text-gold-400 font-semibold">Location: </span>
               <span className="text-white/80">{internship.location}</span>
             </p>
             <p>
-              <span className="text-gold-400 font-semibold">Who can apply — </span>
+              <span className="text-gold-400 font-semibold">Who can apply: </span>
               <span className="text-white/80">{internship.whoCanApply}</span>
             </p>
           </div>

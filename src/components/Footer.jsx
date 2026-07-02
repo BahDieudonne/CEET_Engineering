@@ -8,7 +8,7 @@ export default function Footer() {
         <div>
           <p className="font-display font-semibold text-white text-lg">{company.name}</p>
           <p className="mt-3 text-sm max-w-xs">
-            All electrical and solar deals — installations, audits, maintenance and consultation
+            All electrical and solar deals: installations, audits, maintenance and consultation
             across Bamenda and the North West Region.
           </p>
         </div>
@@ -59,7 +59,7 @@ export default function Footer() {
       </div>
 
       <div className="mx-auto max-w-7xl px-5 md:px-8 mt-12 pt-6 border-t border-white/10 text-xs flex flex-col sm:flex-row justify-between gap-2">
-        <p>© {new Date().getFullYear()} {company.shortName} — Competence Electrical Engineering Tech. All rights reserved.</p>
+        <p>© {new Date().getFullYear()} {company.shortName}, Competence Electrical Engineering Tech. All rights reserved.</p>
         <p>Built for reliable power, every day.</p>
       </div>
     </footer>

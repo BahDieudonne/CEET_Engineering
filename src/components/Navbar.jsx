@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import { company, nav } from '../data/siteData'
+import logo from '../assets/logo.png'
 
 export default function Navbar() {
   const [open, setOpen] = useState(false)
@@ -8,9 +9,7 @@ export default function Navbar() {
     <header className="sticky top-0 z-50 bg-indigo-950/95 backdrop-blur border-b border-white/10">
       <div className="mx-auto max-w-7xl px-5 md:px-8 flex items-center justify-between h-16 md:h-20">
         <a href="#home" className="flex items-center gap-3 shrink-0">
-          <span className="grid place-items-center h-9 w-9 rounded-full border-2 border-gold-500 text-gold-500 font-display font-bold text-sm">
-            CE
-          </span>
+          <img src={logo} alt="CEET logo" className="h-10 w-10 md:h-11 md:w-11 object-contain" />
           <span className="font-display font-semibold text-white leading-tight text-sm md:text-base">
             Competence Electrical<br className="hidden sm:block" /> Engineering Tech
           </span>

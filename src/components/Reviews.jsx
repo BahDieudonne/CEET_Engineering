@@ -92,7 +92,7 @@ export default function Reviews() {
               <p className="text-ink/50 text-sm">Couldn't load reviews right now. Please try again shortly.</p>
             )}
             {!loading && !loadError && reviews.length === 0 && (
-              <p className="text-ink/50 text-sm">No reviews yet — be the first to leave one.</p>
+              <p className="text-ink/50 text-sm">No reviews yet. Be the first to leave one.</p>
             )}
             {reviews.map((r) => (
               <div key={r.id} className="rounded-2xl border border-indigo-900/10 bg-white p-6">

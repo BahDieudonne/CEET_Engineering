@@ -3,7 +3,8 @@
 @tailwind utilities;
 
 :root {
-  --current: #FFD34D;
+  /* CEET's one signature accent color, used for every glow/highlight/focus state. */
+  --current: #F7C948;
 }
 
 html {
@@ -27,7 +28,7 @@ textarea:focus-visible {
   outline-offset: 3px;
 }
 
-/* Signature element: the "live current" — a dashed conductor line that
+/* Signature element: the "live current," a dashed conductor line that
    runs down the page connecting section nodes, animated like current flow. */
 .current-line {
   stroke: var(--current);
@@ -38,7 +39,7 @@ textarea:focus-visible {
 }
 
 .current-node {
-  filter: drop-shadow(0 0 6px rgba(255, 211, 77, 0.7));
+  filter: drop-shadow(0 0 6px rgba(247, 201, 72, 0.7));
 }
 
 @keyframes current-flow {

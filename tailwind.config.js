@@ -16,7 +16,6 @@ export default {
           500: '#F0B429',
           600: '#D69A0B',
         },
-        current: '#FFD34D',
         ink: '#12091F',
         paper: '#FAF8FF',
       },

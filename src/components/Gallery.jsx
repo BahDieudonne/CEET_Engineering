@@ -17,7 +17,7 @@ export default function Gallery() {
           Recent installations, up on the roof
         </h2>
         <p className="mt-3 text-ink/60 max-w-xl">
-          A look at completed jobs — rooftop arrays, inverter and battery installs, from
+          A look at completed jobs: rooftop arrays, inverter and battery installs, from
           first roof assessment to system activation.
         </p>
 

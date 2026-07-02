@@ -1,7 +1,7 @@
 import { services } from '../data/siteData'
 import CurrentDivider from './CurrentDivider'
 
-// Simple inline icon set keyed by service id — kept intentionally minimal
+// Simple inline icon set keyed by service id, kept intentionally minimal
 // (single stroke, gold) rather than reaching for a generic icon library look.
 const icons = {
   'electrical-installations': 'M13 2 4 14h6l-1 8 9-12h-6l1-8Z',

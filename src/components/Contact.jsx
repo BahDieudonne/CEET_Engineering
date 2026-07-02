@@ -24,7 +24,7 @@ export default function Contact() {
     e.preventDefault()
     if (!validate()) return
 
-    // Replace this with a real form backend (e.g. Formspree, EmailJS) —
+    // Replace this with a real form backend (e.g. Formspree, EmailJS);
     // for now it falls back to opening a pre-filled email.
     const subject = encodeURIComponent(`Consultation request from ${form.name}`)
     const body = encodeURIComponent(
@@ -147,7 +147,7 @@ export default function Contact() {
             </button>
             {status === 'sent' && (
               <p className="text-sm text-green-700 text-center">
-                Opening your email client to send this — thank you.
+                Opening your email client to send this. Thank you.
               </p>
             )}
           </form>

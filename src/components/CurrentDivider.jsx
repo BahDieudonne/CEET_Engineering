@@ -1,4 +1,4 @@
-// A thin dashed "conductor" line with a glowing node — the recurring
+// A thin dashed "conductor" line with a glowing node, the recurring
 // signature motif that threads through the page like live current,
 // echoing the schematic/circuit language of the brand.
 export default function CurrentDivider({ label }) {

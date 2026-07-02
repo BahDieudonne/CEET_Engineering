@@ -20,8 +20,8 @@ export const company = {
     { number: '+237 673 768 408', href: 'tel:+237673768408' },
     { number: '+237 673 772 786', href: 'tel:+237673772786' },
   ],
-  email: 'juniorclinton838@gmail.com',
-  emailHref: 'mailto:juniorclinton838@gmail.com',
+  email: 'electriccompetence95@gmail.com',
+  emailHref: 'mailto:electriccompetence95@gmail.com',
   whatsappHref: 'https://wa.me/237672816448',
   facebookHref: 'https://www.facebook.com/profile.php?id=61560175286321',
   location: 'Nkwen, Bamenda, North West Region, Cameroon',
@@ -40,7 +40,7 @@ export const nav = [
 ]
 
 export const hero = {
-  eyebrow: 'Electrical & Solar Engineering — Bamenda, Cameroon',
+  eyebrow: 'Electrical & Solar Engineering, Bamenda, Cameroon',
   headline: 'All Electrical and Solar Deals',
   subheadline:
     'Solar is here to stay, no blackout. Invest in advanced solar technology, raise your property\u2019s value, and switch to sustainable, reliable power.',
@@ -121,7 +121,7 @@ export const whyChooseUs = [
   },
 ]
 
-// Gallery items — real project photos, stored in src/assets/gallery.
+// Gallery items: real project photos, stored in src/assets/gallery.
 export const galleryItems = [
   {
     id: 'g1',
@@ -184,7 +184,7 @@ export const about = {
   heading: 'Powering homes and businesses across the North West',
   body: [
     'Competence Electrical Engineering Tech (CEET) is an electrical and renewable energy company based in Nkwen, Bamenda. We design, install and maintain electrical and solar power systems for homes, businesses and estates.',
-    'Our crews work to strict safety standards on every roof and every panel board — full harnesses, hard hats and gloves are not optional, they\u2019re how we work. From a first roof assessment to system activation, we stay on the job until the power is reliable.',
+    'Our crews work to strict safety standards on every roof and every panel board. Full harnesses, hard hats and gloves are not optional, they\u2019re how we work. From a first roof assessment to system activation, we stay on the job until the power is reliable.',
   ],
 }
 

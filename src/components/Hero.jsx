@@ -38,7 +38,7 @@ export default function Hero() {
               href={company.phoneHref}
               className="rounded-full border border-white/30 hover:border-gold-400 hover:text-gold-400 text-white font-semibold px-7 py-3.5 transition-colors"
             >
-              {hero.secondaryCta} — {company.phone}
+              {hero.secondaryCta}: {company.phone}
             </a>
           </div>
 
